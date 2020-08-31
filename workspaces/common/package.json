@@ -1,0 +1,18 @@
+{
+  "name": "@monorepo/common",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Common package for MonoRepo",
+  "main": "src/index.ts",
+  "main:src": "src/index.ts",
+  "scripts": {
+    "test": "echo \"todo\""
+  },
+  "keywords": [
+    "yarn",
+    "workspaces",
+    "monorepo"
+  ],
+  "author": "nick@master-class.io",
+  "license": "ISC"
+}

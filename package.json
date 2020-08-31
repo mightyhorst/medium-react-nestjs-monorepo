@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/root",
+  "private": true, 
+  "version": "1.0.0",
+  "description": "A monorepo for React and NestJs",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"todo\"",
+    "build:app": "yarn workspace @monorepo/react build",
+    "build:api": "yarn workspace @monorepo/nestjs build",
+    "start:app": "yarn workspace @monorepo/react start",
+    "start:api": "yarn workspace @monorepo/nestjs start"
+  },
+  "keywords": [
+    "nestjs",
+    "react",
+    "monorepo",
+    "workspaces"
+  ],
+  "author": "nick@kitset.io",
+  "license": "ISC"
+}
